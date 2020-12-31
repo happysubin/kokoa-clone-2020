@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&family=Oxygen&display=swap');
+@import 'reset.css';
+@import 'status_Bar.css';
+@import ' variables.css';
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.Welcome_header {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 90px 0px 0px 0px;
+}
+.Welcome_header_title {
+	font-weight: 900;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+.Welcome_header_p {
+	width: 60%;
+	opacity: 0.7;
+}
+
+.login_form {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 40px 30px;
+}
+.login_form_input {
+	padding: 5px;
+	height: 40px;
+	width: 380px;
+	border: none;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.login_form_input:not([type='submit']) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	transition: border-color 3s ease-in-out;
+}
+.login_form_input::placeholder {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.login_form_input:focus {
+	border-color: var(--green);
+}
+.login_form_input[type='submit'] {
+	border-radius: 10px;
+	background-color: var(--green);
+	cursor: pointer;
+}
+.login_form a {
+	text-decoration: none;
+	color: inherit;
+}
