@@ -1,0 +1,29 @@
+.suggestions {
+	margin-top: 30px;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.suggestions_title {
+	font-weight: 600;
+	padding: 25px 0px;
+}
+.suggestions_icons {
+	display: flex;
+}
+.suggestions_icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 20px;
+}
+.suggestions_icon i {
+	color: white;
+}
+.suggestions_icon_image {
+	display: flex;
+	width: 45px;
+	height: 45px;
+	background-color: teal;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}

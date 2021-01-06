@@ -1,0 +1,100 @@
+.find-icons {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+.find-icons__icon {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.find-icons__icon i {
+	margin-bottom: 15px;
+}
+.recommend_container {
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: 800;
+	height: 250px;
+}
+.recommend_title {
+	padding: 15px 0px;
+}
+.recommend_main {
+	text-align: center;
+	margin: 80px 0px;
+}
+.open-chat_title {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px 0px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat_content {
+	display: flex;
+	align-items: center;
+
+	justify-content: space-between;
+}
+
+.open_chat_content_column img {
+	width: 80px;
+	height: 80px;
+	border-radius: 10px;
+}
+.open_chat_content_column h5 {
+	font-size: 14px;
+	font-weight: 800;
+}
+.open_chat_content_column h6 {
+	color: rgba(0, 0, 0, 0.4);
+	padding: 2px 0px;
+	margin: 5px 0px;
+	font-size: 14px;
+}
+
+.information_column img {
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+}
+.open_chat_information {
+	display: flex;
+	align-items: center;
+}
+
+.open_chat_information .divide {
+	width: 4px;
+	height: 14px;
+	margin: 0px 3px;
+	background-color: turquoise;
+}
+.information_column {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#active_status {
+	color: pink;
+}
+.open_chat_content_column {
+	position: relative;
+}
+.like_box {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	color: white;
+	width: 50px;
+	height: 20px;
+	font-size: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	top: 55px;
+	left: 25px;
+}

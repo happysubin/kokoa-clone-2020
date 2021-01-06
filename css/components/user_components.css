@@ -1,0 +1,139 @@
+.screenheader {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 25px;
+	align-items: center;
+}
+.screenheader h1 {
+	font-weight: 700;
+	font-size: 32px;
+}
+.screenheader i {
+	margin-right: 15px;
+}
+
+@keyframes rotateSetting {
+	form {
+		transform: none;
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+.screenheader .fa-cog:hover {
+	animation: rotateSetting 1s linear infinite;
+}
+
+#friends-display-link {
+	display: block;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 16px;
+}
+#friends-display-link i {
+	color: rgba(0, 0, 0, 0.5);
+	margin: 0px 5px;
+}
+
+.main_screen {
+	padding: 15px 25px;
+}
+.firends_column_number {
+	margin-right: 3px;
+}
+
+.friends_bar {
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	justify-content: space-between;
+}
+.friends_column {
+	display: flex;
+
+	align-items: center;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.friends_column_avatar {
+	border-radius: 25px;
+	margin-right: 20px;
+}
+
+.friends_column_text {
+	font-size: 18px;
+	font-weight: 900;
+	color: rgba(0, 0, 0, 0.9);
+	margin-bottom: 5px;
+}
+.friends_column_avatar_m {
+	width: 60px;
+	height: 60px;
+}
+.friends_column_avatar_xl {
+	width: 70px;
+	height: 70px;
+}
+
+.friends_column_avatar_s {
+	width: 50px;
+	height: 50px;
+}
+
+.friends_screen_channel {
+	display: flex;
+	justify-content: space-between;
+	border-top: var(--border_top);
+	padding: 15px;
+	color: rgba(0, 0, 0, 0.4);
+}
+.friends_column:last-child {
+	display: flex;
+	flex-direction: column;
+}
+
+.friend_column_alarm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: tomato;
+	color: white;
+	margin-top: 5px;
+}
+.friends_column_title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.friends_column_title h5 {
+	font-weight: 600;
+}
+.fa-exclamation-circle {
+	color: tomato;
+}
+.setting_bar_column span :last-child {
+	margin-left: 20px;
+}
+@keyframes heartbeat {
+	0% {
+		color: white;
+		transform: none;
+	}
+	50% {
+		color: tomato;
+		transform: scale(2);
+	}
+	100% {
+		color: white;
+		transform: none;
+	}
+}
+.like_box .fa-heart:hover {
+	will-change: transform;
+	animation: heartbeat 1s ease-in-out infinite;
+}

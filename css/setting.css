@@ -1,0 +1,38 @@
+.setting_bar {
+	display: flex;
+	align-items: center;
+	padding: 40px 25px;
+	justify-content: center;
+}
+.setting_bar_column {
+	width: 33%;
+}
+.setting_bar_column:nth-child(2) {
+	display: flex;
+	justify-content: center;
+}
+.setting_bar_column:last-child {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.setting_bar_title {
+	font-size: 32px;
+	font-weight: 800;
+}
+
+.setting_box {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 25px 0px;
+	justify-content: space-between;
+	font-size: 18px;
+}
+.setting_box_column i {
+	margin-right: 10px;
+}
+
+.grey {
+	color: rgba(0, 0, 0, 0.4);
+}
